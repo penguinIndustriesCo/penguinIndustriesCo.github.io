@@ -1,0 +1,53 @@
+.navbar ul {
+    list-style-type: none;
+    background-color: darkslateblue;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    border-radius: 5px;
+} 
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 0px;
+    font-weight: bold;
+}
+.navbar a:hover{
+    background-color: darkgrey; 
+    color: white;
+}
+.navbar li {
+    float: left;
+}
+body {
+    width: auto;
+    background-color: black;
+}
+h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+P {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+img {
+    width: 100%;
+}
