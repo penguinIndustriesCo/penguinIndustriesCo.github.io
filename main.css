@@ -1,6 +1,6 @@
 .navbar ul {
     list-style-type: none;
-    background-color: darkslateblue;
+    background-color: black;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -12,42 +12,138 @@
     padding: 15px;
     display: block;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    border-radius: 0px;
+    font-family: sans-serif;
+    border-radius: 5px;
     font-weight: bold;
 }
 .navbar a:hover{
-    background-color: darkgrey; 
+    background-color: rgb( 80, 24, 0 ); 
     color: white;
+    text-decoration: none;
 }
 .navbar li {
     float: left;
 }
 body {
-    width: auto;
-    background-color: black;
+    background-color: rgb( 135, 54, 0 );
 }
-h1 {
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
+.container {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ column-gap: 5px;
+  align-items: center;
+  justify-content: center; 
+  text-align: center; 
 }
-h3 {
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-}
-h2 {
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-}
-.header {
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
-P {
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-}
+
 img {
-    width: 100%;
+  max-width: 100%;
+  max-height:100%;
+  border-radius: 15px;
+}
+
+.text {
+ display: flex;
+  flex-direction: column; /* Stack text and audio vertically */
+  align-items: center; /* Ensure everything is centered */
+  gap: 10px; /* Space between text and audio */
+
+}
+.title{
+font-size: 100px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.flea {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+audio {
+    align-items: center;
+}
+.title2{
+font-size: 80px;
+}
+hr {
+    color: rgb( 80, 24, 0 );
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bold {
+    font-weight: bold;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.bold:hover {
+    font-weight: bold;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.heading {
+   color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: normal; 
+}
+p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.icon{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: larger;
+}
+.large-bold {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+}
+.img {
+  width: 500px;
+  border-radius: 15px;
+  align-items: center;
+  margin: auto;
+}
+button {
+    border: none;
+    color: black;
+    padding: 20px 30px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+}
+.p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+.i {
+  width: 100%;
+  border-radius: 15px;
+  align-items: center;
+  margin: auto;
 }
